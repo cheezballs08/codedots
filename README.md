@@ -12,7 +12,6 @@ Ben linuxtayım o sebeple windows specific birşey olduğu zaman pm atın veya y
 
 Kullandığım font [Jetbrains Mono'nun nerd font hali](https://www.nerdfonts.com/font-downloads) bulun indirin kurun buradan.
 
-
 settings.json için değerler (ctrl+shift+p Open User Settings (JSON) tr de ne bilmiyorum)
 
 ```json
@@ -103,7 +102,6 @@ içine bunu yerleştirin
 Error alt çizgileri düzleşmesin istiyorsanız css dosyasındaki ```.squiggly-``` ile başlayan her şeyi silin
 
 Bunu kafanıza göre değiştirebilirsiniz hatta bir [video](https://www.youtube.com/watch?v=9_I0bySQoCs&t=711s) bırakıyorum buradan nasıl kendi stillerinizi ekleyebileceğinizi de öğrenebilirsiniz.
-
 Ayrıca settings.jsonda olmayan diğer değişiklikleri de gösteriyor kesin izleyin.
 
 sonra friendly ui a dosyanın nerede olduğunu belirtin (settings.jsona bunu koyacaksınız)
@@ -115,6 +113,7 @@ sonra friendly ui a dosyanın nerede olduğunu belirtin (settings.jsona bunu koy
 ```json
 "friendly-ui.customCssPath": "linuxta/böyle/yapsanız/olur",
 ```
+
 sonra ctrl+shift+p ile quick input widgeti açın ve enable friendly ui deyin. Her değişiklikten sonra reload friendly ui ile güncelleyebilirsiniz. Linuxtaysanız vscode dosyalarını kendi userınızın kontrolü altına almalısınız (rootaysa olmuyor) atmanız lazım haberiniz olsun
 
 ## Terminal
@@ -122,7 +121,6 @@ sonra ctrl+shift+p ile quick input widgeti açın ve enable friendly ui deyin. H
 Terminalin fontunu ayrıca değiştirmek zorunda kalabilirsinz
 
 Terminalimin farklı olmasının sebebi [Oh My Posh](https://ohmyposh.dev/) kullanıyorum herhangi bir shell için kullanılabilir. Ama vscode ayarladıktan sonra bakın
-
 
 ## İconlar
 
